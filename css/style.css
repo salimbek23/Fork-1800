@@ -1,0 +1,99 @@
+@import url(./fonts.css);
+
+
+:root{
+    --font-primary: 'Roboto';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1376px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+/* header start */
+    
+
+/* header end */
+
+
+
+/* membership start */
+
+
+
+
+/* membership end */
+
+/* guide start */
+
+
+
+
+/* guide end */
+
+
+/* info start */
+
+
+
+
+/* info end */
+
+
+/* slider start */
+
+
+
+
+/* slider end */
+
+
+/* already start */
+
+
+
+
+/* already end */
+
+
+
+
+/* community start */
+
+
+
+
+/* community end */
+
+
+/* place start */
+
+
+
+
+/* place end */
+
+
+/* footer start */
+
+
+
+
+/* footer end */
+
+
+
