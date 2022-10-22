@@ -165,6 +165,15 @@ ul {
     background: #466;
     color: #ffffff;
 }
+.community__desc-card-title {
+    text-align: center;
+}
+.community__desc-card-span {
+    text-align: center;
+}
+.community__card-titles {
+    
+}
 
 /* community end */
 
