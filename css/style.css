@@ -1,23 +1,26 @@
 @import url(./fonts.css);
 
 
-:root{
+:root {
     --font-primary: 'Roboto';
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: var(--font-primary);
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style: none;
 }
-.container{
+
+.container {
     max-width: 1376px;
     width: 100%;
     margin: 0 auto;
@@ -25,7 +28,7 @@ ul{
 }
 
 /* header start */
-    
+
 
 /* header end */
 
@@ -74,8 +77,103 @@ ul{
 
 /* community start */
 
+.community__cards {
+    display: flex;
+    padding-left: 104px;
+    column-gap: 50px;
+    padding-top: 114px;
+}
 
+.community__title {
+    max-width: 457px;
+    width: 100%;
+    color: #692340;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+}
 
+.community__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 108px;
+}
+
+.community__card-title {
+    max-width: 152px;
+    width: 100%;
+    color: #692340;
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.community__card-text {
+    max-width: 354px;
+    width: 100%;
+    color: #692340;
+    font-weight: 700;
+    font-size: 27px;
+    padding-top: 10px;
+}
+
+.community__card-texts {
+    max-width: 385px;
+    width: 100%;
+    color: #692340;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.community__card {
+    display: flex;
+    flex-direction: column;
+}
+
+.community__desc-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 54px 332px;
+}
+
+.community__desc-card-title {
+    max-width: 217px;
+    width: 100%;
+    color: #692340;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.community__desc-card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.community__desc-card-span {
+    border: 1px solid #692340;
+    filter: drop-shadow(0px 0px 0px rgba(105, 35, 64, 0.4));
+    border-radius: 0px;
+    padding: 20px 40px;
+    text-align: center;
+    transition: .5s;
+}
+.community__desc-card-span:hover {
+    background: #466;
+    color: #ffffff;
+}
+.community__desc-card-title {
+    text-align: center;
+}
+.community__desc-card-span {
+    text-align: center;
+}
+.community__card-titles {
+    
+}
 
 /* community end */
 
@@ -94,6 +192,3 @@ ul{
 
 
 /* footer end */
-
-
-
